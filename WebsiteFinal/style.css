@@ -1,0 +1,647 @@
+
+
+
+
+
+
+body {
+
+	
+	margin: 0 auto;
+
+}
+
+.head {
+
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.5) ), url('bk.jpg') no-repeat center;
+   overflow: hidden;
+   padding-top: 20px;
+   height: 1000px;
+   width: 100%;
+}
+
+.headr {
+
+	background: url('bk2.jpg') no-repeat center;
+   overflow: hidden;
+   padding-top: 20px;
+   height: 1000px;
+   width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto; /* 1 */
+
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+
+
+
+}
+
+
+.logo-img {
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+
+}
+
+nav {
+  float: right;
+  position: relative;
+
+
+}
+
+nav li {
+
+	display: inline-block;
+	padding: 10px;
+}
+
+nav li a {
+	 
+	text-decoration: none;
+	color: #fff;
+	font-family: "Proxima Nova";
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+
+a:hover {
+
+	color: orange;
+}
+
+a:hover i.fa-twitter          { color: #1DA1F2; }
+a:hover i.fa-facebook-f          { color: #3B5998; }
+a:hover i.fa-instagram          { color: #bf2cb3; }
+
+
+.headr nav li a {
+	 
+	text-decoration: none;
+	color: #000;
+	font-family: "Proxima Nova";
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.headr a:hover {
+
+	color: orange;
+}
+
+
+.port  {
+	
+	margin: 0 auto;
+}
+
+.mock  {
+
+	margin: 150px 0px 0px 100px;
+
+}
+
+.word {
+
+	position: absolute;
+
+	margin: 280px 0px 0px -475px;
+
+
+}
+
+
+h1 {
+	position: absolute;
+	font-size: 4em;
+	font-family: "Proxima Nova";
+	color: #fff;
+	margin: 300px 0px 0px 110px;
+
+}
+
+h2 {
+
+	text-align: center;
+	font-family: "Proxima Nova";
+	font-size: 2em;
+	margin-top: 80px;
+
+
+}
+
+h3   { 
+	font-size: 24px;
+	font-family: "Proxima Nova";
+	color: #fff;
+	font-weight: lighter;
+	margin: 400px 0px 0px 365px;
+	
+	position: absolute;
+
+
+}
+
+.h3  {
+
+	color: orange;
+}
+
+.btn   {
+
+	height: 60px;
+	width: 300px;
+	background-color: orange;
+	border: 1px solid orange;
+	border-radius: 100px;
+	margin: 500px 0px 0px 320px;
+	position: absolute;
+
+}
+
+h4   {
+
+	color: #fff;
+	font-family: "Proxima Nova";
+	font-weight: lighter;
+	text-align: center;
+	font-size: 20px;
+	margin: 18px 0px 0px 110px;
+	position: absolute;
+}
+
+
+.icons {
+    
+    margin: 700px 0px 0px 120px;
+    position: absolute;
+    
+    
+}
+
+
+
+
+.section  {
+
+
+	height: 800px;
+	width: 100%;
+	background-color: #fff;
+}
+
+
+
+.box1  {
+
+	height: 400px;
+	width: 25%;
+	background-color: #fff;
+	margin: 0 auto;
+	float: left;
+	position: relative;
+	padding: 2px;
+	box-shadow: 2px 2px 20px #F2F2F2;
+}
+
+.box1  img  {
+
+	margin: 20px 0px 0px 95px;
+
+
+
+}
+
+.box1  h3  {
+
+	color: #000;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 5px 0px 0px 50px;
+
+
+}
+
+.box1  p  {
+
+	text-align: center;
+	font-family: "Proxima Nova";
+	font-size: 14px;
+	padding: 15px;
+	margin-top: 30px;
+
+
+
+}
+
+.box2  {
+
+	height: 400px;
+	width: 25%;
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	padding: 2px;
+	box-shadow: 2px 2px 20px #f2f2f2;
+}
+
+.box2  img  {
+
+	margin: 20px 0px 0px 10px;
+
+
+
+}
+
+.box2  h3  {
+
+	color: #000;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 5px 0px 0px 60px;
+
+
+}
+
+.box2  p  {
+
+	text-align: center;
+	font-family: "Proxima Nova";
+	font-size: 14px;
+	padding: 15px;
+	margin-top: 30px;
+
+
+
+}
+
+.box3  {
+
+	height: 400px;
+	width: 25%;
+	background-color: #fff;
+	margin: -404px 0px 0px 700px;
+	box-shadow: 2px 2px 20px #F2F2F2; 
+	
+	position: relative;
+	padding: 2px;
+}
+
+.box3  img  {
+
+	margin: 20px 0px 0px 95px;
+
+
+
+}
+
+.box3  h3  {
+
+	color: #000;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 5px 0px 0px 60px;
+
+
+}
+
+.box3  p  {
+
+	text-align: center;
+	font-family: "Proxima Nova";
+	font-size: 14px;
+	padding: 15px;
+	margin-top: 30px;
+
+
+
+}
+
+.boxes  {
+
+	margin: 200px 0px 0px 0px;
+
+
+
+}
+
+
+
+footer 
+
+{
+		margin-top: 150px;
+		width: 100%;
+		height: 150px;
+		background-color: #3B3B3B;
+
+}
+
+.and  {
+
+	color: orange;
+}
+
+footer p {
+	text-align: center;
+	font-family: "Proxima Nova";
+	padding-top: 60px;
+	color: lightgrey;
+}
+
+.displays  {
+
+	margin: 0 auto;
+	padding-top: 100px;
+
+}
+
+.displays img {
+
+	width: 500px;
+	height: 300px;
+
+}
+
+.img1 {
+
+	float: left;
+	margin: 0px 0px 0px 300px;
+
+
+}
+
+.img2 {
+
+float: right;
+margin: 0px 300px 0px 0px;
+	
+}
+
+.img3 {
+
+float: left;
+	margin: 30px 0px 0px 300px;
+}
+
+.img4 {
+
+	float: right;
+	margin: 30px 300px 0px 0px;
+
+	
+}
+
+.graphics {
+
+	position: absolute;
+	margin: 50px 0px 0px 0px;
+	width: 100%;
+	z-index: -10;
+}
+
+.graphics img {
+
+	width: 400px;
+	height: 200px;
+}
+
+#g1 {
+
+	float: right;
+}
+
+#g2 {
+
+	float: left;
+	margin-top: 10px;
+}
+
+
+#ig {
+
+	position: absolute;
+	margin: 55px 0px 0px 100px;
+
+}
+
+#tw {
+
+	position: absolute;
+	margin: 55px 0px 0px 200px;
+	
+}
+
+#fb {
+
+	position: absolute;
+	margin: 55px 0px 0px 300px;
+	
+}
+
+
+.infopic  img {
+
+		position: relative;
+		height: 200px;
+		width: 200px;
+		border: 1px solid #fff;
+		border-radius: 100px;
+		margin: 200px 0px 0px -50px;
+
+
+}
+
+.biosec  {
+
+	position: relative;
+	margin: -100px 0px 0px 350px;
+
+
+}
+
+.biosec h1 {
+	font-family: 'BEYNO';
+	position: relative;
+	font-size: 50px;
+	margin: 0 auto;
+	color: #000;
+	text-align: center;
+}
+
+.biosec h2 {
+	color: orange;
+	font-size: 25px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.biosec h3 {
+	color: orange;
+	font-size: 20px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bio  {
+
+	height: 200px;
+	background-color: #000;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin-top: 20px;
+
+}
+
+.bio p {
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+.contact {
+	background-color: #fff;
+	height: 900px;
+	width: 100%;
+}
+
+
+.contact h2 {
+
+	font-weight: bold;
+	font-size: 40px;
+	position: absolute;
+	margin: -375px 0px 0px 160px;
+	z-index: 10;
+}
+
+.mail  {
+	z-index: 20;
+	position: absolute;
+	margin: -460px 0px 0px 435px;
+}
+
+.margin {
+	position: relative;
+  margin: 0px 0px 0px 750px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.inputGroup {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.inputGroup label {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-family: Trebuchet MS;
+  color: orange;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  display: block;
+  width: 280px;
+  border: none;
+  border-bottom: 1px solid #757575;
+  left: 25px;
+  padding: 5px;
+  font-family: Trebuchet MS;
+  background: none;
+  color: #ccc;
+}
+
+.inputGroup input:focus ~ label,
+.inputGroup input:valid ~ label,
+.inputGroup textarea:focus ~ label,
+.inputGroup textarea:valid ~ label {
+  top: -20px;
+  transition: all 0.3s ease;
+  font-size: 13px;
+}
+
+.inputGroup input:focus ~ .inputBar:before,
+.inputGroup input:focus ~ .inputBar:after,
+.inputGroup textarea:focus ~ .inputBar:before,
+.inputGroup textarea:focus ~ .inputBar:after {
+  width: 50%;
+}
+
+.inputGroup textarea {
+  height: 100px;
+  width: 280px;
+  overflow: auto;
+  resize: none;
+}
+
+.inputGroup .inputBar {
+  position: relative;
+  display: block;
+  width: 290px;
+}
+
+.inputGroup .inputBar:before,
+.inputGroup .inputBar:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  background: white;
+  height: 2px;
+  transition: all 0.2s ease;
+}
+
+.inputGroup .inputBar:after {
+  right: 50%;
+}
+
+.inputGroup .inputBar:before {
+  left: 50%;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  padding: 15px 0;
+  margin: 0;
+  width: 290px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px #a1a1a1;
+  position: relative;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 4px #a1a1a1;
+  top: 2px;
+}
+
+button:active {
+  top: 6px;
+  box-shadow: 0 0;
+}
+
